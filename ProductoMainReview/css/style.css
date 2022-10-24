@@ -120,8 +120,14 @@ grid-template-rows: 1fr 1fr;
     border: none;
     margin: 0rem 2rem;
     border-radius: 15px;
-    
+    background-color: var(--darkCyan);
 }
+
+.boton:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
 .boton a{
     font-family: var(--fontFraunces);
     font-size: medium;
@@ -129,9 +135,6 @@ grid-template-rows: 1fr 1fr;
     color: var(--white);
 }
 
-.boton--primario {
-    background-color: var(--darkCyan);
-}
 
 .attribution {
     display: block;
