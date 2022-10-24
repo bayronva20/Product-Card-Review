@@ -24,33 +24,6 @@ h1 {
 h4 {
     color: var(--darkGrayishBlue);
 }
-/**
-.contenedor {
-    width: 80%;
-    height: 30rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 5rem 6rem;
-    padding: 2rem;
-    
-}
-
-.contenedor__imagen {
-    background-image: url(../images/image-product-desktop.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 1rem;
-    border-top-left-radius: 1rem;
-
-
-}
-
-.contenedor__texto {
-    padding-left: 2rem;
-   background-color: white;
-   border-top-right-radius: 1rem;
-   border-bottom-right-radius: 1rem;
-}  **/
 
 /** Movil **/
 
@@ -141,7 +114,6 @@ grid-template-rows: 1fr 1fr;
     padding: 2rem;
     font-size: 11px;
     text-align: center;
-    margin-top: 2rem;
   }
 
   .attribution a {
@@ -168,10 +140,6 @@ grid-template-rows: 1fr 1fr;
         background-image: url(../images/image-product-desktop.jpg);
         border-top-right-radius: unset;
         border-bottom-left-radius: 1.5rem;
-    }
-
-    .attribution {
-        margin-top: 10rem;
     }
      
 }
