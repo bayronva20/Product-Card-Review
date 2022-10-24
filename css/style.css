@@ -30,7 +30,8 @@ h4 {
 
 .contenedor {
     justify-content: center;
-    margin: 3rem 1rem;
+    max-width: 90%;
+    margin: 2rem auto;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
@@ -46,6 +47,7 @@ h4 {
 
 .contenedor__texto {
     background: var(--white);
+    width: fit-content;
     padding: 2rem;
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
@@ -109,7 +111,6 @@ h4 {
     color: var(--white);
 }
 
-
 .attribution {
     display: block;
     padding: 2rem;
@@ -127,7 +128,7 @@ h4 {
 @media (min-width: 768px) {
 
     .contenedor {
-        margin: 5rem;
+        margin: 10rem auto;
         display: grid;
         grid-template-rows: none;
         grid-template-columns: repeat(2, 1fr);
@@ -148,7 +149,25 @@ h4 {
 
 @media (min-width: 1280px) {
     .contenedor {
-        margin: 10rem 25rem;
+        max-width: 45%;
+        margin: 15rem auto;
+    }
+
+    .contenedor__texto h1 {
+        font-size: 2.5rem;
+    }
+
+    .contenedor__texto--parrafo {
+        font-size: 1rem;
+    }
+
+    .contenedor__texto--precio {
+        font-size: 1.5rem;
+    }
+
+    .boton {
+        font-size: 1rem;
+        padding: 1rem 2rem;
     }
 
 }
